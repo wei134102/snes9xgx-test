@@ -1,6 +1,7 @@
 name: Snes9x GX Build
 
-on: [push, pull_request]
+on:
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   build:
